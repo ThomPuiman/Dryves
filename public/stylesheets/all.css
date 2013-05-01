@@ -1,0 +1,116 @@
+/* 
+    Document   : all
+    Created on : 9-mrt-2013, 20:43:55
+    Author     : Thom
+    Description:
+        Purpose of the stylesheet follows.
+https://kuler.adobe.com/#themeID/2268093
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    background: white;
+    margin: 0;
+    font-family: "wf_SegoeUI","Tahoma","Verdana","Arial","sans-serif";
+    font-size: 12px;
+}
+
+#top h1 {
+    font-size: 45px;
+    color: white;
+    margin-top: 0px;
+    padding-left: 19px;
+    padding-top: 15px;
+}
+
+#homeIntroText {
+    float:left;
+    width: 650px;
+    margin-top:15px;
+}
+
+#homeIntroVideo {
+    float: left;
+    width: 340px;
+    margin-top:15px;
+}
+
+#top {
+    background: #00C3A9;
+    height: 100px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#nav {
+    background: #008798;
+    height: 32px;
+    width: 100%;
+    padding-top: 8px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#nav .loginButton {
+    float: right;
+    padding-right:10px;
+}
+
+#nav .loginButton img {
+    margin-top: -4px;
+    width: 32px;
+    float:right;
+    margin-right: 10px;
+}
+
+#nav .loginButton .userName {
+    color:white;
+    float:right;
+    line-height: 23px;
+}
+
+#homeIntroVideo .loginButton {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.center {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.fbFriend {
+    height: 80px;
+    margin: 5px;
+    width: 120px;
+    float: left;
+}
+
+.fbFriend div {
+    width: 120px;
+}
+
+.fbFriend img {
+    text-align: center;
+}
+
+#profilePhoto {
+    float:left;
+}
+
+#profileFriends { 
+    width: 320px;
+    max-height: 325px;
+    float:right;
+    overflow-x:hidden;
+    overflow-y:scroll;
+}
+
+#profileFriends .profileFriend {
+    width: 75px;
+    float:left;
+    height: 105px;
+}

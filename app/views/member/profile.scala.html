@@ -1,0 +1,22 @@
+@(profileUser: model.User, friends: ArrayList[ArrayList[String]])
+@main("Profiel") {
+	<h1>Profiel van @profileUser.name</h1>
+	<div id="profilePhoto">
+		<img src="https://graph.facebook.com/@(profileUser.facebook_token)/picture" />
+	</div>
+
+	<div id="profileFields">
+		@profileUser.city
+		@profileUser.birthday
+		@profileUser.phone
+	</div>
+	
+	<div id="profileFriends">
+		@for(friend <- friends){
+			<div class="profileFriend">
+				<img src="https://graph.facebook.com/@(friend.get(1))/picture" />
+		    	<div>@friend.get(0)</div>
+			</div>
+		}
+	</div>
+}
